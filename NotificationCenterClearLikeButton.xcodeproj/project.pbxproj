@@ -1,0 +1,442 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		1130C2F615DE7F4B00639343 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1130C2F515DE7F4B00639343 /* UIKit.framework */; };
+		1130C2F815DE7F4B00639343 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1130C2F715DE7F4B00639343 /* Foundation.framework */; };
+		1130C2FA15DE7F4B00639343 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1130C2F915DE7F4B00639343 /* CoreGraphics.framework */; };
+		1130C30015DE7F4B00639343 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 1130C2FE15DE7F4B00639343 /* InfoPlist.strings */; };
+		1130C30215DE7F4B00639343 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 1130C30115DE7F4B00639343 /* main.m */; };
+		1130C30615DE7F4B00639343 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 1130C30515DE7F4B00639343 /* AppDelegate.m */; };
+		1130C30915DE7F4B00639343 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1130C30815DE7F4B00639343 /* ViewController.m */; };
+		1130C30C15DE7F4B00639343 /* ViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1130C30A15DE7F4B00639343 /* ViewController.xib */; };
+		1130C31415DE7F4B00639343 /* SenTestingKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1130C31315DE7F4B00639343 /* SenTestingKit.framework */; };
+		1130C31515DE7F4B00639343 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1130C2F515DE7F4B00639343 /* UIKit.framework */; };
+		1130C31615DE7F4B00639343 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1130C2F715DE7F4B00639343 /* Foundation.framework */; };
+		1130C31E15DE7F4B00639343 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 1130C31C15DE7F4B00639343 /* InfoPlist.strings */; };
+		1130C32115DE7F4B00639343 /* NotificationCenterClearLikeButtonTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 1130C32015DE7F4B00639343 /* NotificationCenterClearLikeButtonTests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		1130C31715DE7F4B00639343 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 1130C2E815DE7F4B00639343 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 1130C2F015DE7F4B00639343;
+			remoteInfo = NotificationCenterClearLikeButton;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		1130C2F115DE7F4B00639343 /* NotificationCenterClearLikeButton.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = NotificationCenterClearLikeButton.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		1130C2F515DE7F4B00639343 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		1130C2F715DE7F4B00639343 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		1130C2F915DE7F4B00639343 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		1130C2FD15DE7F4B00639343 /* NotificationCenterClearLikeButton-Info.plist */ = {isa = PBXFileReference; path = "NotificationCenterClearLikeButton-Info.plist"; sourceTree = "<group>"; };
+		1130C2FF15DE7F4B00639343 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		1130C30115DE7F4B00639343 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		1130C30315DE7F4B00639343 /* NotificationCenterClearLikeButton-Prefix.pch */ = {isa = PBXFileReference; path = "NotificationCenterClearLikeButton-Prefix.pch"; sourceTree = "<group>"; };
+		1130C30415DE7F4B00639343 /* AppDelegate.h */ = {isa = PBXFileReference; path = AppDelegate.h; sourceTree = "<group>"; };
+		1130C30515DE7F4B00639343 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		1130C30715DE7F4B00639343 /* ViewController.h */ = {isa = PBXFileReference; path = ViewController.h; sourceTree = "<group>"; };
+		1130C30815DE7F4B00639343 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		1130C30B15DE7F4B00639343 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/ViewController.xib; sourceTree = "<group>"; };
+		1130C31215DE7F4B00639343 /* NotificationCenterClearLikeButtonTests.octest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = NotificationCenterClearLikeButtonTests.octest; sourceTree = BUILT_PRODUCTS_DIR; };
+		1130C31315DE7F4B00639343 /* SenTestingKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SenTestingKit.framework; path = Library/Frameworks/SenTestingKit.framework; sourceTree = DEVELOPER_DIR; };
+		1130C31B15DE7F4B00639343 /* NotificationCenterClearLikeButtonTests-Info.plist */ = {isa = PBXFileReference; path = "NotificationCenterClearLikeButtonTests-Info.plist"; sourceTree = "<group>"; };
+		1130C31D15DE7F4B00639343 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		1130C31F15DE7F4B00639343 /* NotificationCenterClearLikeButtonTests.h */ = {isa = PBXFileReference; path = NotificationCenterClearLikeButtonTests.h; sourceTree = "<group>"; };
+		1130C32015DE7F4B00639343 /* NotificationCenterClearLikeButtonTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = NotificationCenterClearLikeButtonTests.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		1130C2EE15DE7F4B00639343 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1130C2F615DE7F4B00639343 /* UIKit.framework in Frameworks */,
+				1130C2F815DE7F4B00639343 /* Foundation.framework in Frameworks */,
+				1130C2FA15DE7F4B00639343 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1130C30E15DE7F4B00639343 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1130C31415DE7F4B00639343 /* SenTestingKit.framework in Frameworks */,
+				1130C31515DE7F4B00639343 /* UIKit.framework in Frameworks */,
+				1130C31615DE7F4B00639343 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		1130C2E615DE7F4B00639343 = {
+			isa = PBXGroup;
+			children = (
+				1130C2FB15DE7F4B00639343 /* NotificationCenterClearLikeButton */,
+				1130C31915DE7F4B00639343 /* NotificationCenterClearLikeButtonTests */,
+				1130C2F415DE7F4B00639343 /* Frameworks */,
+				1130C2F215DE7F4B00639343 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		1130C2F215DE7F4B00639343 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				1130C2F115DE7F4B00639343 /* NotificationCenterClearLikeButton.app */,
+				1130C31215DE7F4B00639343 /* NotificationCenterClearLikeButtonTests.octest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		1130C2F415DE7F4B00639343 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				1130C2F515DE7F4B00639343 /* UIKit.framework */,
+				1130C2F715DE7F4B00639343 /* Foundation.framework */,
+				1130C2F915DE7F4B00639343 /* CoreGraphics.framework */,
+				1130C31315DE7F4B00639343 /* SenTestingKit.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		1130C2FB15DE7F4B00639343 /* NotificationCenterClearLikeButton */ = {
+			isa = PBXGroup;
+			children = (
+				1130C30415DE7F4B00639343 /* AppDelegate.h */,
+				1130C30515DE7F4B00639343 /* AppDelegate.m */,
+				1130C30715DE7F4B00639343 /* ViewController.h */,
+				1130C30815DE7F4B00639343 /* ViewController.m */,
+				1130C30A15DE7F4B00639343 /* ViewController.xib */,
+				1130C2FC15DE7F4B00639343 /* Supporting Files */,
+			);
+			path = NotificationCenterClearLikeButton;
+			sourceTree = "<group>";
+		};
+		1130C2FC15DE7F4B00639343 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				1130C2FD15DE7F4B00639343 /* NotificationCenterClearLikeButton-Info.plist */,
+				1130C2FE15DE7F4B00639343 /* InfoPlist.strings */,
+				1130C30115DE7F4B00639343 /* main.m */,
+				1130C30315DE7F4B00639343 /* NotificationCenterClearLikeButton-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		1130C31915DE7F4B00639343 /* NotificationCenterClearLikeButtonTests */ = {
+			isa = PBXGroup;
+			children = (
+				1130C31F15DE7F4B00639343 /* NotificationCenterClearLikeButtonTests.h */,
+				1130C32015DE7F4B00639343 /* NotificationCenterClearLikeButtonTests.m */,
+				1130C31A15DE7F4B00639343 /* Supporting Files */,
+			);
+			path = NotificationCenterClearLikeButtonTests;
+			sourceTree = "<group>";
+		};
+		1130C31A15DE7F4B00639343 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				1130C31B15DE7F4B00639343 /* NotificationCenterClearLikeButtonTests-Info.plist */,
+				1130C31C15DE7F4B00639343 /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		1130C2F015DE7F4B00639343 /* NotificationCenterClearLikeButton */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1130C32415DE7F4B00639343 /* Build configuration list for PBXNativeTarget "NotificationCenterClearLikeButton" */;
+			buildPhases = (
+				1130C2ED15DE7F4B00639343 /* Sources */,
+				1130C2EE15DE7F4B00639343 /* Frameworks */,
+				1130C2EF15DE7F4B00639343 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = NotificationCenterClearLikeButton;
+			productName = NotificationCenterClearLikeButton;
+			productReference = 1130C2F115DE7F4B00639343 /* NotificationCenterClearLikeButton.app */;
+			productType = "com.apple.product-type.application";
+		};
+		1130C31115DE7F4B00639343 /* NotificationCenterClearLikeButtonTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1130C32715DE7F4B00639343 /* Build configuration list for PBXNativeTarget "NotificationCenterClearLikeButtonTests" */;
+			buildPhases = (
+				1130C30D15DE7F4B00639343 /* Sources */,
+				1130C30E15DE7F4B00639343 /* Frameworks */,
+				1130C30F15DE7F4B00639343 /* Resources */,
+				1130C31015DE7F4B00639343 /* ShellScript */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				1130C31815DE7F4B00639343 /* PBXTargetDependency */,
+			);
+			name = NotificationCenterClearLikeButtonTests;
+			productName = NotificationCenterClearLikeButtonTests;
+			productReference = 1130C31215DE7F4B00639343 /* NotificationCenterClearLikeButtonTests.octest */;
+			productType = "com.apple.product-type.bundle";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		1130C2E815DE7F4B00639343 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0420;
+			};
+			buildConfigurationList = 1130C2EB15DE7F4B00639343 /* Build configuration list for PBXProject "NotificationCenterClearLikeButton" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 1130C2E615DE7F4B00639343;
+			productRefGroup = 1130C2F215DE7F4B00639343 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				1130C2F015DE7F4B00639343 /* NotificationCenterClearLikeButton */,
+				1130C31115DE7F4B00639343 /* NotificationCenterClearLikeButtonTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		1130C2EF15DE7F4B00639343 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1130C30015DE7F4B00639343 /* InfoPlist.strings in Resources */,
+				1130C30C15DE7F4B00639343 /* ViewController.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1130C30F15DE7F4B00639343 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1130C31E15DE7F4B00639343 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		1130C31015DE7F4B00639343 /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# Run the unit tests in this test bundle.\n\"${SYSTEM_DEVELOPER_DIR}/Tools/RunUnitTests\"\n";
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		1130C2ED15DE7F4B00639343 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1130C30215DE7F4B00639343 /* main.m in Sources */,
+				1130C30615DE7F4B00639343 /* AppDelegate.m in Sources */,
+				1130C30915DE7F4B00639343 /* ViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1130C30D15DE7F4B00639343 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1130C32115DE7F4B00639343 /* NotificationCenterClearLikeButtonTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		1130C31815DE7F4B00639343 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 1130C2F015DE7F4B00639343 /* NotificationCenterClearLikeButton */;
+			targetProxy = 1130C31715DE7F4B00639343 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		1130C2FE15DE7F4B00639343 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				1130C2FF15DE7F4B00639343 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		1130C30A15DE7F4B00639343 /* ViewController.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				1130C30B15DE7F4B00639343 /* en */,
+			);
+			name = ViewController.xib;
+			sourceTree = "<group>";
+		};
+		1130C31C15DE7F4B00639343 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				1130C31D15DE7F4B00639343 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		1130C32215DE7F4B00639343 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		1130C32315DE7F4B00639343 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		1130C32515DE7F4B00639343 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "NotificationCenterClearLikeButton/NotificationCenterClearLikeButton-Prefix.pch";
+				INFOPLIST_FILE = "NotificationCenterClearLikeButton/NotificationCenterClearLikeButton-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		1130C32615DE7F4B00639343 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "NotificationCenterClearLikeButton/NotificationCenterClearLikeButton-Prefix.pch";
+				INFOPLIST_FILE = "NotificationCenterClearLikeButton/NotificationCenterClearLikeButton-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		1130C32815DE7F4B00639343 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/NotificationCenterClearLikeButton.app/NotificationCenterClearLikeButton";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(DEVELOPER_LIBRARY_DIR)/Frameworks",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "NotificationCenterClearLikeButton/NotificationCenterClearLikeButton-Prefix.pch";
+				INFOPLIST_FILE = "NotificationCenterClearLikeButtonTests/NotificationCenterClearLikeButtonTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Debug;
+		};
+		1130C32915DE7F4B00639343 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/NotificationCenterClearLikeButton.app/NotificationCenterClearLikeButton";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(DEVELOPER_LIBRARY_DIR)/Frameworks",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "NotificationCenterClearLikeButton/NotificationCenterClearLikeButton-Prefix.pch";
+				INFOPLIST_FILE = "NotificationCenterClearLikeButtonTests/NotificationCenterClearLikeButtonTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		1130C2EB15DE7F4B00639343 /* Build configuration list for PBXProject "NotificationCenterClearLikeButton" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1130C32215DE7F4B00639343 /* Debug */,
+				1130C32315DE7F4B00639343 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1130C32415DE7F4B00639343 /* Build configuration list for PBXNativeTarget "NotificationCenterClearLikeButton" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1130C32515DE7F4B00639343 /* Debug */,
+				1130C32615DE7F4B00639343 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		1130C32715DE7F4B00639343 /* Build configuration list for PBXNativeTarget "NotificationCenterClearLikeButtonTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1130C32815DE7F4B00639343 /* Debug */,
+				1130C32915DE7F4B00639343 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 1130C2E815DE7F4B00639343 /* Project object */;
+}
