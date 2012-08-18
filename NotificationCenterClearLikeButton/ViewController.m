@@ -2,11 +2,12 @@
 //  ViewController.m
 //  NotificationCenterClearLikeButton
 //
-//  Created by  on 8/17/12.
+//  Created by xiaohaibo on 8/17/12.
 //  Copyright (c) 2012 __MyCompanyName__. All rights reserved.
 //
 
 #import "ViewController.h"
+#import "NCLButton.h"
 
 @implementation ViewController
 
@@ -22,8 +23,10 @@
 {
     [super viewDidLoad];
 	// Do any additional setup after loading the view, typically from a nib.
+    NCLButton *button = [[[NCLButton alloc] initWithFrame:CGRectMake(150, 50, 24, 24)] autorelease];
+    [[self view] addSubview:button];
+    [self.view setBackgroundColor:[UIColor darkGrayColor]];
 }
-
 - (void)viewDidUnload
 {
     [super viewDidUnload];

@@ -2,7 +2,7 @@
 //  AppDelegate.m
 //  NotificationCenterClearLikeButton
 //
-//  Created by  on 8/17/12.
+//  Created by xiaohaibo on 8/17/12.
 //  Copyright (c) 2012 __MyCompanyName__. All rights reserved.
 //
 
