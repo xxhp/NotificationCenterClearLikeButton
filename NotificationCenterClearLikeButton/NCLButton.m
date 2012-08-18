@@ -102,9 +102,10 @@
         iconImage.alpha = 1;
         [self setFrame:self.frameShrunk];
         [self setTitleColor:[UIColor clearColor] forState:UIControlStateNormal];
-        [UIView commitAnimations];
+        
         
     }
+    [UIView commitAnimations];
 }
 -(void)stateDidChanged
 {
