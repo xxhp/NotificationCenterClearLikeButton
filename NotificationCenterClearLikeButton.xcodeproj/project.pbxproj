@@ -130,7 +130,6 @@
 				1130C30715DE7F4B00639343 /* ViewController.h */,
 				1130C30815DE7F4B00639343 /* ViewController.m */,
 				1130C30A15DE7F4B00639343 /* ViewController.xib */,
-				11EA3CFF15DF8B5300960106 /* README.md */,
 				1130C2FC15DE7F4B00639343 /* Supporting Files */,
 			);
 			path = NotificationCenterClearLikeButton;
@@ -139,8 +138,7 @@
 		1130C2FC15DE7F4B00639343 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
-				11EA3CF915DF78C200960106 /* error.png */,
-				11EA3CFA15DF78C200960106 /* error@2x.png */,
+				11EA3CFF15DF8B5300960106 /* README.md */,
 				1130C2FD15DE7F4B00639343 /* NotificationCenterClearLikeButton-Info.plist */,
 				1130C2FE15DE7F4B00639343 /* InfoPlist.strings */,
 				1130C30115DE7F4B00639343 /* main.m */,
@@ -171,6 +169,8 @@
 		11EA3CFE15DF838F00960106 /* NCLButton */ = {
 			isa = PBXGroup;
 			children = (
+				11EA3CF915DF78C200960106 /* error.png */,
+				11EA3CFA15DF78C200960106 /* error@2x.png */,
 				1130C32A15DE7FB700639343 /* NCLButton.h */,
 				1130C32B15DE7FB700639343 /* NCLButton.m */,
 			);
